@@ -1,19 +1,26 @@
 class PagesController < ApplicationController
 
-
-@roger= "Roger Davis"
-
   def home
+  @base_title = "Sample App "
   	@title= "Home"
   end
 
   def contact
+  @base_title = "Sample App "
   	@title= "Contact"
   end
 
 
 def about
-	@title= "About"
+
+@base_title = "Sample App "
+@title= "About"
 end
+
+def help
+@base_title = "Sample App "
+@title= "Help"
+end
+
 
 end
